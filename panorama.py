@@ -7,7 +7,7 @@ import math
 class Stitcher:
 
     def __init__(self, images, ratio=0.75, reprojThresh=4.0, showMatches=False):
-        # 우리가 Opencv 3버전을 사용하는지 확인할 변수
+        # Opencv 3버전을 사용하는지 확인할 변수
         self.isv3 = imutils.is_cv3()
 
         self.dir_list = images
